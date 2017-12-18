@@ -1,0 +1,75 @@
+		body {
+			background-image: url("grfx/bg.png");
+			font-family: sans-serif;
+			width: 1002px;
+			margin: 0 auto;
+		}
+
+		#frame {
+			background-color: rgba(255,200,200,0.3);
+		}
+
+		header h1 {
+			text-align: center;
+			padding-top: 31px;
+		}
+
+		header nav ul {
+			list-style-type: none;
+			background-color: rgba(255,255,200,0.3);
+			padding-left: 8px;
+			margin-left: 8px;
+			margin-right: 8px;
+		}
+
+		#content {
+			margin-left: 8px;
+			margin-right: 8px;
+			display: flex;
+			flex-direction: row;
+		}
+
+		header nav li {
+			display: inline-block;
+		}
+
+		header nav li a {
+			text-decoration: none;
+			color: black;
+			padding-right: 12px;
+			padding-top: 12px;
+			padding-bottom: 6px;
+			font-weight: bold;
+		}
+
+		main{
+			border: 1px black solid;
+			background-color: rgba(200,200,255,0.3);
+			padding-left: 8px;
+			padding-right: 8px;
+			width: 670px;
+		}
+
+		aside{
+			border: 1px black solid;
+			background-color: rgba(200,255,200,0.3);
+			padding-left: 8px;
+			padding-right: 8px;
+			width: 288px;
+		}
+
+		body article {
+			background-color: rgba(200,200,200,0.6);
+		}
+
+		header {
+		}
+
+		footer {
+			background-color: rgba(255,255,200,0.3);
+			margin-left: 8px;
+			margin-right: 8px;
+			text-align: center;
+			font-weight: bold;
+			padding-bottom: 8px;
+		}
