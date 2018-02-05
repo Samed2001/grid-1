@@ -1,75 +1,102 @@
-		body {
+
+body {
 			background-image: url("grfx/bg.png");
-			font-family: sans-serif;
-			width: 1002px;
-			margin: 0 auto;
+			font-family: Tahoma;
 		}
 
-		#frame {
-			background-color: rgba(255,200,200,0.3);
+h1{
+		text-align: center;
+		margin: 22px 0 23px 0;
 		}
 
-		header h1 {
-			text-align: center;
-			padding-top: 31px;
+h2{
+        font-size: 24px;
+	    line-height: 33px;
+	}
+
+h3{
+		line-height: 32px;
+        font-size: 18.0px;
+	}
+
+p{
+		padding: 5px 0 8px 0;
+	    margin-top: 24px;
 		}
 
-		header nav ul {
+a{
+		text-decoration: none;
+		color: #000;
+		}
+
+#frame {
+		background-color: rgba(255,200,200,0.3);
+	    width: 1001px;
+		padding: 10px;
+	    margin-left: 141px;
+		}
+
+header nav ul {
 			list-style-type: none;
 			background-color: rgba(255,255,200,0.3);
-			padding-left: 8px;
-			margin-left: 8px;
-			margin-right: 8px;
-		}
-
-		#content {
-			margin-left: 8px;
-			margin-right: 8px;
+			margin-top: 0px;
+			margin: 0 0 15px 0;
+	    	width: 998px;
+			padding: 0 0 0 3px;
 			display: flex;
-			flex-direction: row;
 		}
 
-		header nav li {
-			display: inline-block;
+#content {
+			display: flex;
+			height: 428px;
 		}
 
-		header nav li a {
-			text-decoration: none;
-			color: black;
-			padding-right: 12px;
-			padding-top: 12px;
-			padding-bottom: 6px;
-			font-weight: bold;
+#content h1{
+		text-align: left;
+		 }
+
+nav li {
+			line-height: 24px;
+			padding: 8px 10px 9px 10px;
+			font-weight: bolder;
 		}
 
-		main{
+main{
 			border: 1px black solid;
 			background-color: rgba(200,200,255,0.3);
-			padding-left: 8px;
-			padding-right: 8px;
-			width: 670px;
+			width: 690px;
+	    	margin-left: 1px;
+			padding-top: 9px;
 		}
-
-		aside{
+aside{
 			border: 1px black solid;
 			background-color: rgba(200,255,200,0.3);
-			padding-left: 8px;
-			padding-right: 8px;
-			width: 288px;
+			flex:1;
+			padding-top: 9px;
+	    	padding-bottom: 27px;
 		}
 
-		body article {
+body article {
 			background-color: rgba(200,200,200,0.6);
+			margin: 0 8px 0 8px;
+			height: 80px;
 		}
 
-		header {
+body article p{
+			    padding: 0px 0 8px 0;
 		}
 
-		footer {
+aside article{
+			height: 79px;
+			margin: 0 8px 0 9px;
+		}
+
+aside article p{
+			line-height: 17px;
+		}
+
+footer {
 			background-color: rgba(255,255,200,0.3);
-			margin-left: 8px;
-			margin-right: 8px;
 			text-align: center;
-			font-weight: bold;
-			padding-bottom: 8px;
+			font-weight: bolder;
 		}
